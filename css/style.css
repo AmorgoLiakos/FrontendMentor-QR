@@ -39,9 +39,19 @@ img {
   font-family: 'Outfit', sans-serif;
   font-weight: 700;
   margin-bottom: 25px;
+  color: hsl(218, 44%, 22%)
 }
 
 .qr-text {
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 375px) {
+  .qr-container {
+    padding: 0 30px;
+  }
 }
